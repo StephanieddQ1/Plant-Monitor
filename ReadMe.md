@@ -40,10 +40,10 @@ This was an individual project. I was responsible for:
 
 ## Project Media
 
-![Plant Monitor Circuit]]<img width="607" height="407" alt="plant monitor 1" src="https://github.com/user-attachments/assets/76fa574d-5a04-44be-bb25-9e0402ca7e89" />
+<img width="607" height="407" alt="plant monitor 1" src="https://github.com/user-attachments/assets/76fa574d-5a04-44be-bb25-9e0402ca7e89" />
 
 
-![Arduino Cloud Dashboard]<img width="596" height="409" alt="plant monitor 2" src="https://github.com/user-attachments/assets/21338bab-5079-4dd1-9aed-eb508a70a104" />
+<img width="596" height="409" alt="plant monitor 2" src="https://github.com/user-attachments/assets/21338bab-5079-4dd1-9aed-eb508a70a104" />
 
 
 ## Future Improvements
