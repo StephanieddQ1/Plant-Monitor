@@ -1,58 +1,53 @@
-:Author: chiamakao
-:Email:
-:Date: 19/11/2024
-:Revision: version#
-:License: Public Domain
+# Plant Monitor
 
-= Project: {Project}
+An IoT-based plant monitoring system built with an Arduino MKR1000 to track temperature, soil moisture, and light levels. The system sends sensor data to Arduino Cloud for remote monitoring and provides alerts when plant conditions need attention.
 
-Describe your project
+## Overview
 
-== Step 1: Installation
-Please describe the steps to install this project.
+The Plant Monitor was developed as an individual project to explore how Internet of Things technology could be used for everyday environmental monitoring.
 
-For example:
+The system measures temperature, soil moisture, and light levels and sends the readings to an Arduino Cloud dashboard. Programmed thresholds are used to determine when conditions are unsuitable, triggering status messages through the IoT Remote app and an LED warning on the physical circuit.
 
-1. Open this file
-2. Edit as you like
-3. Release to the World!
+## Features
 
-== Step 2: Assemble the circuit
+- Monitors temperature, soil moisture, and light levels
+- Sends sensor data to Arduino Cloud
+- Displays readings remotely through the IoT Remote mobile app
+- Generates plant-care status messages
+- Activates an LED warning when moisture or light conditions are unsuitable
 
-Assemble the circuit following the diagram layout.png attached to the sketch
+## Tools & Technologies
 
-== Step 3: Load the code
+- Arduino MKR1000
+- Arduino C/C++
+- Arduino Cloud
+- IoT Remote mobile app
+- Temperature sensor
+- Soil moisture sensor
+- Light sensor
+- Breadboard and basic electronic components
 
-Upload the code contained in this sketch on to your board
+## My Contribution
 
-=== Folder structure
+This was an individual project. I was responsible for:
 
-....
- sketch123                => Arduino sketch folder
-  ├── sketch123.ino       => main Arduino file
-  ├── schematics.png      => (optional) an image of the required schematics
-  ├── layout.png          => (optional) an image of the layout
-  └── ReadMe.adoc         => this file
-....
+- Designing and assembling the circuit
+- Integrating the sensors
+- Programming the system
+- Configuring the Arduino Cloud dashboard
+- Testing sensor readings and thresholds
+- Documenting the project
 
-=== License
-This project is released under a {License} License.
+## Project Media
 
-=== Contributing
-To contribute to this project please contact: 
-
-=== BOM
-Add the bill of the materials you need for this project.
-
-|===
-| ID | Part name      | Part number | Quantity
-| R1 | 10k Resistor   | 1234-abcd   | 10       
-| L1 | Red LED        | 2345-asdf   | 5        
-| A1 | Arduino Zero   | ABX00066    | 1        
-|===
+![Plant Monitor Circuit]]<img width="607" height="407" alt="plant monitor 1" src="https://github.com/user-attachments/assets/76fa574d-5a04-44be-bb25-9e0402ca7e89" />
 
 
-=== Help
-This document is written in the _AsciiDoc_ format, a markup language to describe documents. 
-If you need help you can search the http://www.methods.co.nz/asciidoc[AsciiDoc homepage]
-or consult the http://powerman.name/doc/asciidoc[AsciiDoc cheatsheet]
+![Arduino Cloud Dashboard]<img width="596" height="409" alt="plant monitor 2" src="https://github.com/user-attachments/assets/21338bab-5079-4dd1-9aed-eb508a70a104" />
+
+
+## Future Improvements
+
+- Improve the light-level calibration range
+- Allow users to select plant-specific monitoring thresholds
+- Refine moisture and environmental thresholds for greater accuracy
